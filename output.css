@@ -2103,7 +2103,12 @@ border-top-right-radius: 0.5rem;
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(74 29 150 / var(--tw-ring-opacity));
 }
-
+@media (max-width: 640px) {
+  .smd\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 @media (min-width: 640px) {
   .sm\:borderRad-10{
     border-radius: 10px;
