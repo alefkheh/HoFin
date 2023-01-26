@@ -1054,7 +1054,9 @@ input:checked + .toggle-bg {
 .mr-4 {
   margin-right: 1rem;
 }
-
+.mr-8{
+  margin-right: 2rem;
+}
 .ml-1 {
   margin-left: 0.25rem;
 }
@@ -1337,7 +1339,9 @@ border-top-right-radius: 0.5rem;
 .gap-8 {
   gap: 2rem;
 }
-
+.gap-4 {
+  gap: 1rem;
+}
 .space-y-4 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
@@ -2251,6 +2255,18 @@ border-top-right-radius: 0.5rem;
 }
 
 @media (min-width: 1024px) {
+  .lg\:mr-8{
+    margin-right: 2rem;
+  }
+  .lg\:gap-4 {
+    gap: 1rem;
+  }
+  .lg\:ml-8{
+    margin-left: 2rem;
+  }
+  .lg\:mt-10 {
+    margin-top: 10px;
+  }
   .lg\:navDownPinky{
     height:10px;
     width: 100%;
