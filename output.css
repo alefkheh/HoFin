@@ -2169,7 +2169,7 @@ border-top-right-radius: 0.5rem;
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
-  .md\:mt-20 {
+  .sm\:mt-20 {
     margin-top: 20px;
   }
 }
