@@ -1478,6 +1478,10 @@ border-top-right-radius: 0.5rem;
   background-color: rgb(108 43 217 / var(--tw-bg-opacity));
 }
 
+.bg-activeMenu{
+  background-color: #cb3a89;
+}
+
 .bg-gray-50 {
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
