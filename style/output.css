@@ -34,6 +34,7 @@
 
 html {
   line-height: 1.5;
+  scroll-behavior: smooth;
   /* 1 */
   -webkit-text-size-adjust: 100%;
   /* 2 */
@@ -1544,7 +1545,9 @@ border-top-right-radius: 0.5rem;
 .p-4 {
   padding: 1rem;
 }
-
+.p-5{
+  padding: 1.25rem;
+}
 .p-2\.5 {
   padding: 0.625rem;
 }
@@ -2090,7 +2093,11 @@ border-top-right-radius: 0.5rem;
   --tw-text-opacity: 1;
   color: rgb(63 131 248 / var(--tw-text-opacity));
 }
-
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
 .dark .dark\:hover\:text-gray-300:hover {
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));
@@ -2115,7 +2122,9 @@ border-top-right-radius: 0.5rem;
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(55 65 81 / var(--tw-ring-opacity));
 }
-
+.pt-16{
+  padding-top: 4rem;
+}
 .dark .dark\:focus\:ring-purple-900:focus {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(74 29 150 / var(--tw-ring-opacity));
@@ -2125,6 +2134,7 @@ border-top-right-radius: 0.5rem;
     margin-left: auto;
     margin-right: auto;
   }
+  
 }
 @media (min-width: 640px) {
   .sm\:borderRad-10{
