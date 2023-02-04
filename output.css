@@ -1279,7 +1279,11 @@ border-top-right-radius: 0.5rem;
 .resize {
   resize: both;
 }
-
+.space-x-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
 .list-disc {
   list-style-type: disc;
 }
@@ -2126,6 +2130,18 @@ border-top-right-radius: 0.5rem;
   .sm\:borderRad-10{
     border-radius: 10px;
   }
+  .sm\:justify-center {
+    justify-content: center;
+  }
+  .sm\:justify-between{
+    justify-content: space-between;
+  }
+  .sm\:items-center{
+    align-items: center;
+  }
+  .sm\:p-6 {
+    padding: 1.5rem;
+  }
   .sm\:hidden{
     display: none;
   }
@@ -2190,11 +2206,20 @@ border-top-right-radius: 0.5rem;
   .sm\:mt-20 {
     margin-top: 20px;
   }
+  .sm\:mt-0 {
+    margin-top: 0px;
+  }
 }
 
 @media (min-width: 768px) {
   .md\:grid {
     display: grid;
+  }
+  .md\:mb-0{
+    margin-bottom: 0px;
+  }
+  .md\:justify-between {
+    justify-content: space-between;
   }
   .md\:flex {
     display: flex;
