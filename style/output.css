@@ -61,6 +61,87 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: 'SF UI Display';
+  src: local('SF UI Display Black'), local('SFUIDisplay-Black'),
+      url('/fonts/SanFransisco/SFUIDisplay-Black.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF UI Display';
+  src: local('SF UI Display Heavy'), local('SFUIDisplay-Heavy'),
+      url('/fonts/SanFransisco/SFUIDisplay-Heavy.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF UI Display';
+  src: local('SFUIDisplay-Bold'),
+      url('/fonts/SanFransisco/SFUIDisplay-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF UI Display';
+  src: local('SFUIDisplay-Light'),
+      url('/fonts/SanFransisco/SFUIDisplay-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF UI Display';
+  src: local('SF UI Display Medium'), local('SFUIDisplay-Medium'),
+      url('/fonts/SanFransisco/SFUIDisplay-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF UI Display';
+  src: local('SF UI Display Regular'), local('SFUIDisplay-Regular'),
+      url('/fonts/SanFransisco/SFUIDisplay-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF UI Display';
+  src: local('SF UI Display Thin'), local('SFUIDisplay-Thin'),
+      url('/fonts/SanFransisco/SFUIDisplay-Thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF UI Display';
+  src: local('SF UI Display Semibold'), local('SFUIDisplay-Semibold'),
+      url('/fonts/SanFransisco/SFUIDisplay-Semibold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF UI Display';
+  src: local('SF UI Display Ultralight'), local('SFUIDisplay-Ultralight'),
+      url('/fonts/SanFransisco/SFUIDisplay-Ultralight.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
 
 
 
@@ -143,13 +224,18 @@ abbr:where([title]) {
 /*
 Remove the default font size and weight for headings.
 */
-
+p,label,input,span{
+  font-family: "SF UI Display";
+  font-size: inherit;
+  font-weight: inherit;
+}
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
+  font-family:"Goldplay";
   font-size: inherit;
   font-weight: inherit;
 }
@@ -1561,7 +1647,9 @@ border-top-right-radius: 0.5rem;
 .bg-activeMenu{
   background-color: #cb3a89;
 }
-
+.bg-creamy{
+background-color: rgb(247,234,225,.3);
+}
 .bg-gray-50 {
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
