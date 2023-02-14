@@ -2387,11 +2387,14 @@ border-top-right-radius: 0.5rem;
     margin-top: 0px;
   }
 }
-
+.navDownPinky{
+  border-bottom: 4px solid #cb3a89 ;
+}
 @media (min-width: 1024px) {
   .lg\:mr-8{
     margin-right: 2rem;
   }
+  
   .lg\:gap-4 {
     gap: 1rem;
   }
@@ -2401,11 +2404,7 @@ border-top-right-radius: 0.5rem;
   .lg\:mt-10 {
     margin-top: 10px;
   }
-  .lg\:navDownPinky{
-    height:10px;
-    width: 100%;
-    color: #0259fa;
-  }
+  
   .lg\:order-2 {
     order: 2;
   }
